@@ -39,7 +39,7 @@ function showprofile(data) {
             <div class= "text-center mx-auto" >
             <img class="w-72 rounded-2xl mx-auto" src="${data.avatar_url}">
                 <h1 class="text-3xl font-semibold mt-5">${data.name}</h1 >
-                <div class="mx-[30rem]">
+                <div class="sm: mx-[2rem] lg:mx-[30rem]">
                 <p class="mt-2">${data.bio}</p >
                 </div>
                 <div class="flex justify-center gap-4 mt-5">
