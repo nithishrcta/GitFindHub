@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitFindHub</title>
+   <link rel="icon" class="js-site-favicon" type="image/svg+xml"
+        href="https://github.githubassets.com/favicons/favicon.svg">
+   <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="w-full h-full">
+    <div class="main container mx-auto h-full">
+        <div class="header text-center">
+            <div class="flex items-center mx-auto justify-center pt-20"> 
+            <h1 class= "text-5xl font-bold">GitFindHub</h1>
+            <img class="object-contain h-16 w-auto mt-auto" src="./Assests/pngwing.com.png" alt="">
+            </div>
+            <p class="text-1xl text-gray-600">One stop for searching Github Profiles</p>
+        </div>
+        <div class="search text-center">
+            <input type="text" id="search_bar" placeholder="Enter Github Username" autocomplete="off" class="border-2 border-black p-3 m-8 w-full max-w-2xl rounded-xl">
+            <button class="sub_btn bg-black text-white p-3 px-8 rounded-xl text-lg font-semibold"><i class="fa-solid fa-magnifying-glass mr-2 text-sm font-bold"></i>Find</button>
+        </div>
+        <div id="result" class="flex justify-center">
+        </div>
+        <div id="repos" class="container flex flex-wrap gap-6 mt-10 mb-5 overflow-scroll max-h-[78vh]">
+        </div>
+    </div>
+    <div class="mt-10 text-center">
+        <p class="bg-black text-white py-4">Build with <i class="fa-solid fa-heart mx-2" style="color: #f50000;"></i>By <a href="https://nithishrcta.github.io"> Nithish R</a></p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html> 
