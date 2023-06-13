@@ -51,7 +51,7 @@ Contributions to GitFindHub are always welcome! If you have any ideas for improv
 Before contributing, please ensure that you have reviewed the contribution guidelines.
 
 ## License
-This project is licensed under the MIT License. Feel free to use and modify this project for your own purposes.
+This project is licensed under the [Apache License](/LICENSE/). Feel free to use and modify this project for your own purposes.
 
 ## Acknowledgements
 * This project was inspired by the GitHub platform and its vibrant developer community.
