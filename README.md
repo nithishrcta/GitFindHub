@@ -2,7 +2,7 @@
 
 GitFindHub is a web application that leverages the GitHub API to fetch and display GitHub profiles based on user input. It provides an easy way to search for GitHub users and view their profile information, repositories, and contributions.
 
-Link : https://gitfindhub.netlify.app/
+Live Link : https://gitfindhub.netlify.app/
 
 ## Features
 
